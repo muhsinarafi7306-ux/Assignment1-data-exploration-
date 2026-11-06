@@ -1,1 +1,12 @@
 # Assignment1-data-exploration-
+Totalprice: =sum(select range) 
+Total products : =counta(select range)
+Average : =average(select range)
+Minimum price : =min(select range)
+Maximum price : =max (select range)
+Price range calculation :=if(d2>=500,"high price", "standard price")
+=Sumif(f2:f35, "electronics", D2:D35)
+=Countif(d2:d35,"<100")
+=left(a2,2)
+=right(a2,2)
+=mid(A2,4,3)
